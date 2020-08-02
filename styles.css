@@ -1,0 +1,96 @@
+body {
+  background-color: #f4f5f6;
+}
+/* NAVBAR */
+.navbar {
+  background: red;
+  height: 50px;
+}
+
+.navbar-brand {
+  height: 50px;
+  margin: -7px 0 0 -30px;
+}
+
+.btn-login {
+  color: white;
+  font-weight: 900;
+  margin-right: 20px;
+}
+
+.btn-login:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-subscribe {
+  border-radius: 30px;
+  width: 140px;
+  height: 30px;
+  background: #ffe400;
+  margin-right: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+}
+
+.btn-subscribe:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger {
+  margin-bottom: 15px;
+}
+
+.hamburger div {
+  display: block;
+  margin-top: 5px;
+  height: 4px;
+  width: 32px;
+  background: rgba(255, 255, 255, 0.6);
+}
+/* MAIN */
+main {
+  margin-top: 50px;
+}
+
+.main-content {
+  width: 83%;
+  background-color: white;
+}
+
+.story {
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+
+.story img{
+  position: relative;
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+.story .story-type {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: -23px 0 0 0;
+  position: absolute;
+  padding: 5px 10px 5px 10px;
+}
+
+.story h5 {
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.featured-stories-left img{
+  height: 175px;
+}
+
+.featured-stories-center img {
+  height: 250px;
+}
+
+
